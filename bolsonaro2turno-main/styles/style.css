@@ -1,0 +1,85 @@
+body {
+  background-color: #212121;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+noscript > div {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  background-color: red;
+  display: block;
+  padding: 25px 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.container .form-input {
+  margin-bottom: 1rem;
+}
+
+.container input {
+  display: block;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1rem;
+  margin: 0 0 .5rem;
+  border: 0px;
+  width: calc(100% - 2rem);
+  box-shadow: 0;
+}
+
+.container .btnAcao {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  padding: 0.7rem 2rem;
+  margin: 0 0 .5rem;
+  border-width: 0;
+  border-bottom: 2px solid rgb(9, 99, 37);
+  background-color: #107b29;
+  color: white;
+  cursor: pointer;
+}
+.container .btnAcao:hover {
+  background-color: #0d6121;
+}
+
+.container canvas {
+  display: block;
+  width: 100%;
+  margin: 1rem auto 1rem;
+}
+
+.container footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  row-gap: 0.5rem;
+}
+
+.container footer a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.2rem;
+  
+  display: flex;
+  align-items: center;
+}
+
+.container footer a img {
+  height: 1.2rem;
+  margin-right: .5rem;
+}
