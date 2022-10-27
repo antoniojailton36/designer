@@ -10,7 +10,7 @@ pantonFont.load().then(function (font) {
 });
 
 const baseImage = new Image();
-baseImage.src = "./apoioBolsonaro22.png";
+baseImage.src = "./cartaz.png";
 
 document.getElementById("btnShare").addEventListener("click", shareImage);
 document.getElementById("btnSave").addEventListener("click", saveImage);
