@@ -107,7 +107,7 @@ document
       document.querySelector("input").value.trim()
     ).width;
 
-    context.fillStyle = "#ff0000";
+    context.fillStyle = "black";
     roundRect(context, -width / 2 - 45, -175 / 2, width + 45 * 2, 175, 21.66);
 
     context.fillStyle = "white";
